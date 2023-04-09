@@ -1,6 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "github>sngrstudio/renovate-config", "schedule:daily"
-  ]
+  "extends": ["github>sngrstudio/renovate-config", "schedule:daily"]
 }
