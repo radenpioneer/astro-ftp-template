@@ -2,7 +2,7 @@ lockfileVersion: '6.0'
 
 dependencies:
   astro:
-    specifier: ^2.5.5
+    specifier: 2.5.5
     version: 2.5.5
 
 packages:
