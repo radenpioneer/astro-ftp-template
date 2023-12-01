@@ -12,6 +12,6 @@
     "check": "astro check"
   },
   "dependencies": {
-    "astro": "2.10.15"
+    "astro": "3.6.4"
   }
 }
