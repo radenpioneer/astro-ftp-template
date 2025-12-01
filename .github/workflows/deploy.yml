@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
       - name: Run checks
         uses: radenpioneer/astro-check@abb4ec095ab8b900fb29fb975dafd57fa4db38d8 # v0.1.2
         with:
@@ -32,7 +32,7 @@ jobs:
     needs: check
     steps:
       - name: Checkout your repository using git
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
       - name: Install, build, and upload your site output
         uses: radenpioneer/astro-ftp-deploy@71cf7df82b0da73fa8565991c94680e5d5350508 # v0.1.1
         with:
